@@ -13,4 +13,7 @@ Recreate a desktop-first developer tool landing page inspired by the Cursor webs
 
 ### Expected Output
 
+<img width="3159" height="1826" alt="image" src="https://github.com/user-attachments/assets/010f71c5-50a0-4537-b18e-dd2b8ce28860" />
+
+
 ![Cursor Landing Page Reference](https://github.com/user-attachments/assets/3b9af898-745e-4757-af2f-ab5f52fddc26)
