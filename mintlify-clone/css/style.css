@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:opsz@14..32&display=swap');
+:root{
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Gist Mono", sans-serif;
+    --accent-color: #0C8C5E;
+    --primary-color: #08090A;
+    --secondary-color: #F6F7F7;
+    --secondary-light-color: #EAEAEA;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: var(--primary-font);
+    font-family: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    background: var(--secondary-color);
+}
+
+button{
+    border: none;
+    box-shadow: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    backdrop-filter: blur(12px);
+}
+
+nav .nav-items{
+    position: relative;
+    min-width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .nav-items .nav-logo a{
+    padding: 3px;
+    text-decoration: none;
+}
+nav .nav-items .nav-logo a img{
+    display: block;
+    width: 60%;
+    height: auto;
+} 
+
+.nav-items .nav-menu ul{
+    list-style: none;
+    display: flex;
+    gap:10px;
+}
+.nav-items .nav-menu ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 12px;
+}
+.nav-items .nav-menu ul a:hover{
+    background: #EAEAEA20;
+    border-radius: 20px;
+}
+.nav-items .nav-cta a{
+    margin-left: 4px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 16px;
+    background: #EAEAEA20;
+    border-radius: 20px;
+}
+.btn-primary{
+    background: #fff;
+    color: var(--primary-color);
+}
+
+/* hero */
+.hero{
+    background: url("../assets/img/bg-light.svg");
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0px 0px 0px;
+}
+
+.hero .hero-text-area{
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text-area .hero-notice{
+    display: inline-block;
+    background: #1a3e4360;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.hero-text-area .hero-notice span{
+    font-size: 13px;
+    background: var(--accent-color);
+    padding: 3px 8px;
+    border-radius: 20px;
+    margin-right: 6px;
+}
+.hero-text-area .hero-content{
+    padding: 40px 0px;
+}
+.hero-content h2{
+    font-size: 64px;
+    width: 640px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 72px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.hero-content p{
+    font-size: 18px;
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 27px;
+}
+
+.hero-newsletter {
+    width: 370px;
+    margin: 0 auto;
+    padding: 4px 6px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.hero-newsletter form{
+    background: #efefef30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 6px 4px 24px;
+    border-radius: 40px;
+    border: 1px solid #efefef40;
+    height: 46px;
+}
+.hero-newsletter form input{
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    font-family: var(--primary-font);
+    font-size: 15px;
+}
+.hero-newsletter form input::placeholder{
+    font-family: var(--primary-font);
+    color: #F6F7F760;
+}
+.hero-newsletter form input:focus{
+    outline: none;
+}
+.hero-newsletter form button{
+  font-size: 16px;
+  font-weight: 500;
+}
+.hero-product-image img{
+    display: block;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* brands-list */
+#brands{
+    background: #FFFFFF;
+    padding: 120px 0px;
+}
+.brands-list{
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    align-items: center;
+}
+.brands-list .brand-img{
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brands-list img{
+    width: 180px;
+}
